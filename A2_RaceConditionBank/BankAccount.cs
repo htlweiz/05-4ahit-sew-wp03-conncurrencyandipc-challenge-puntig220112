@@ -19,7 +19,7 @@ public class BankAccount
     
     public void Withdraw(int amount) 
     { 
-        
+        balance -= amount;
     }
     
     public int GetBalance() 
